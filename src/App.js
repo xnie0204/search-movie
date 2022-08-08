@@ -20,7 +20,7 @@ const App = () => {
 
     // Get the search movie list
     const getMovie = async (searchResult) => {
-        const url = `http://www.omdbapi.com/?s=${searchResult}&apikey=${API_KEY}`;
+        const url = `https://www.omdbapi.com/?s=${searchResult}&apikey=${API_KEY}`;
         const response = await fetch(url); 
         //convert http response to Json
         const responseJson = await response.json();
