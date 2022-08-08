@@ -27,4 +27,14 @@ body {
     font-size: calc(0.5rem + 0.5vw);
   }
 
+.image-container {
+    max-width: 400px;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+}
+
+.image-container:hover {
+    overflow: visible;
+}
  

@@ -16,14 +16,14 @@ const MovieList = (props) => {
             <Col style={{margin: '20px 0'}} className="gutter-row" span={4}>
 
                 {/* // content display as start, marginal 3 */}
-                <div className='image-container d-flex justify-content-start m-3 gutter-box'>
-                <Card style = {{width:200}}
+                <div className='m-3 gutter-box'>
+                <Card style = {{width:200}} 
                  cover = {
                 <img src = {movie.Poster} alt = 'movie' width={200} height = {300}></img>
              }>
              
                {/* movie name */}
-                <Meta title = {movie.Title}
+                <Meta title = {movie.Title} className = 'image-container'
                 ></Meta>
 
 
