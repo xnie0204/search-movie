@@ -41,6 +41,9 @@
     ]
   },
   
-  "engines": { "node": "16.13.1", "npm": "8.1.2" }
+  "engines": { "node": "16.13.1", "npm": "8.1.2" },
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
 
 }
