@@ -2,4 +2,4 @@
 
 It used omdb as API, helps users to search for the movies including the typing key words,
 
-This is deploy link on Heroku: search-movies-xn.herokuapp.com/
+This is deploy link on Heroku: https://search-movies-xn.herokuapp.com/
