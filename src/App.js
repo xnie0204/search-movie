@@ -9,6 +9,7 @@ import {
 } from 'antd';
 import 'antd/dist/antd.css';
 const { Content, Footer } = Layout;
+const API_KEY = 'b1a9616f';
 
 const App = () => {
     // hold the search result(initial is an empty array)
@@ -19,7 +20,7 @@ const App = () => {
 
     // Get the search movie list
     const getMovie = async (searchResult) => {
-        const url = `http://www.omdbapi.com/?s=${searchResult}&apikey=b1a9616f`;
+        const url = `http://www.omdbapi.com/?s=${searchResult}&apikey=${API_KEY}`;
         const response = await fetch(url); 
         //convert http response to Json
         const responseJson = await response.json();
