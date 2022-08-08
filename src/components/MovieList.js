@@ -10,7 +10,7 @@ import Meta from 'antd/lib/card/Meta';
 const MovieList = (props) => {
     return (
         <>
-         {props.movies.map((movie, index) => (
+         {props.movies.map((movie,index) => (
 
             //movie image
             <Col style={{margin: '20px 0'}} className="gutter-row" span={4}>
