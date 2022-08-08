@@ -7,7 +7,7 @@ import SearchBar from './components/SearchBar';
 import { 
     Layout, 
 } from 'antd';
-import 'antd/dist/antd.css';
+import 'antd/dist/antd.min.css'
 const { Content, Footer } = Layout;
 const API_KEY = 'b1a9616f';
 

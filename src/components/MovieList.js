@@ -4,7 +4,7 @@ import {
     Card, 
 } from 'antd';
 
-import 'antd/dist/antd.css';
+import 'antd/dist/antd.min.css'
 import Meta from 'antd/lib/card/Meta';
 
 const MovieList = (props) => {
